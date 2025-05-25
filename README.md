@@ -77,8 +77,8 @@ Kapan digunakan: Pilihan yang sangat baik untuk state management yang lebih komp
 - Redux Toolkit:
 Kapan digunakan: Ideal untuk aplikasi kompleks yang membutuhkan state management yang dapat diprediksi dengan single store. Sangat bermanfaat ketika Anda memerlukan dev tools yang powerful untuk debugging dan time-travel debugging. Mendukung SSR dengan next-redux-wrapper.
 
--SWR/React Query:
+- SWR/React Query:
 Kapan digunakan: Khusus untuk mengelola server state atau data yang berasal dari API eksternal. Menyediakan fitur seperti caching otomatis, background refresh, optimistic updates, dan penanganan error terintegrasi. Sebaiknya gunakan SWR/React Query untuk data dari API daripada menyimpan di global state.
 
--URL State:
+- URL State:
 Kapan digunakan: Saat state perlu disimpan dalam query parameters URL. Ini berguna jika state tersebut perlu dibagikan melalui URL (misalnya, filter produk, parameter pencarian) dan secara otomatis akan persist saat halaman di-refresh. Diimplementasikan dengan Next.js router.
